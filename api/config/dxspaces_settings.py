@@ -21,6 +21,7 @@ class RegistrationTest:
 
 class Settings(BaseSettings):
     dxspaces_url: str = "http://localhost:8001"
+    dxspaces_public_url: str = "http://localhost:8001"
     dxspaces_registration: str = ""
 
     @property
